@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.692);
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.521);
+}
+
+img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    color: white;
+}
